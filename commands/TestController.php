@@ -5,7 +5,7 @@ namespace app\commands;
 use yii\console\Controller;
 use yii\console\ExitCode;
 
-class HelloController extends Controller
+class TestController extends Controller
 {
 
     private $_register = false;
