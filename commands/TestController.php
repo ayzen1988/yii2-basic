@@ -21,7 +21,7 @@ class TestController extends Controller
             return;
         }
         $this->_register = true;
-        $serv = new swoole_server("127.0.0.1", 6789);
+        $serv = new \swoole_server("127.0.0.1", 6789);
         $serv->set(array(
             'worker_num' => 1,
             'task_worker_num' => 3,
